@@ -1,3 +1,3 @@
 class Minion < ApplicationRecord
-  belongs_to :super_villain
+  has_many :minions
 end
